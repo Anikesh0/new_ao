@@ -143,7 +143,7 @@ metrics = [
     ("Total Subscribers", "NET_SUBSCRIBERS", '#29b5e8'),
     ("Total Views", "VIEWS", '#FF9F50'),
     ("Total Watch Hours", "WATCH_HOURS", '#D45B90'),
-    ("Total Likes", "LIKES", '#7D44CF')
+    ("Total Likes", "LIKES", '#D45B90')
   
 ]
 
