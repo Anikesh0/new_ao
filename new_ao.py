@@ -2,18 +2,13 @@ import streamlit as st
 import pandas as pd
 import numpy as pd 
 from PIL import Image
+import plotly.express as px
+import plotly.graph_objects as go
+
+df = pd.read_excel("Adidas.xlsx")
 print("Hello world ")
 option = st.selectbox(
     "How would you like to be contacted?",
     ("Email", "Home phone", "Mobile phone"),
 )
-with st.sidebar:
-    add_radio = st.radio(
-        "Choose a shipping method",
-        ("Standard (5-15 days)", "Express (2-5 days)")
-    )
 
-
-st.write("You selected:", option)
-if option:
-    st.success('This is a success message!', icon="✅")
