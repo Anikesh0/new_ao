@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import timedelta, datetime
 
 # Set page config
-st.set_page_config(page_title="Anikesh Dashboard", layout="wide")
+st.set_page_config(page_title="abi Dashboard", layout="wide")
 
 # Helper functions
 @st.cache_data
@@ -17,7 +17,7 @@ st.selectbox(
     "How would you like to be contacted?",
     ("Email", "Home phone", "Mobile phone")
 )
-
+st.line_chart(df)
     
 
 # Load data
