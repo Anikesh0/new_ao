@@ -108,8 +108,7 @@ def display_metric(col, title, value, df, column, color, time_frame):
 df = load_data()
 
 # Set up input widgets
-st.logo(image="image/streamlit-logo-primary-colormark-lighttext.png", 
-        icon_image="image/streamlit-mark-color.png")
+
 
 with st.sidebar:
     st.title(" Anikesh Dashboard")
