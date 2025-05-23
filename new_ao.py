@@ -12,9 +12,8 @@ def load_data():
     data['DATE'] = pd.to_datetime(data['DATE'])
     data['NET_SUBSCRIBERS'] = data['SUBSCRIBERS_GAINED'] - data['SUBSCRIBERS_LOST']
     return data
-  time_frame = st.selectbox("Select time frame",
-                              ("Daily", "Weekly", "Monthly", "Quarterly"),
-    )
+    
+   st.selectbox("do yuou know",("Daily", "Weekly", "Monthly", "Quarterly"))
     
 
 # Load data
