@@ -144,7 +144,7 @@ metrics = [
     ("Total Views", "VIEWS", '#FF9F50'),
     ("Total Watch Hours", "WATCH_HOURS", '#D45B90'),
     ("Total Likes", "LIKES", '#7D44CF')
-    ("Total ", "LIKES", '#7D44CF')
+  
 ]
 
 cols = st.columns(5)
