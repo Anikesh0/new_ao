@@ -10,5 +10,5 @@ option = st.selectbox(
 
 st.write("You selected:", option)
 if option:
-    st.success(' you have selected {option}')
+    st.success(' you have selected ', option)
 
