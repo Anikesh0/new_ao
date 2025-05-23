@@ -19,13 +19,3 @@ def load_data():
 df = load_data()
 
 # Set up input widgets
-
-
-
-
-
-
-
-# DataFrame display
-with st.expander('See DataFrame (Selected time frame)'):
-    st.dataframe(df_filtered)
