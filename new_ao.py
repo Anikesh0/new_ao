@@ -13,7 +13,11 @@ def load_data():
     data['NET_SUBSCRIBERS'] = data['SUBSCRIBERS_GAINED'] - data['SUBSCRIBERS_LOST']
     return data
     
-   st.selectbox("do yuou know",("Daily", "Weekly", "Monthly", "Quarterly"))
+  ani=  st.selectbox(
+    "How would you like to be contacted?",
+    ("Email", "Home phone", "Mobile phone")
+)
+
     
 
 # Load data
